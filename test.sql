@@ -1,0 +1,1 @@
+SELECT * FROM invoices WHERE invoice_date < '2010-01-01' ORDER BY total DESC LIMIT 10;
